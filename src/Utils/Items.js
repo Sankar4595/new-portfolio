@@ -136,7 +136,7 @@ const Items = [
       "A comprehensive mobile application developed using the MERN stack for secure user authentication, doctor profile management, appointment scheduling, patient records management, payment integration, and real-time notifications.",
     category: "MobileApp",
     liveLink:
-      "sankara-narayanan.vercel.app/static/media/doctorapp.4a7baaa15c9d2ace4793.png",
+      "https://drive.google.com/uc?export=download&id=1x4UHu0xfC1gALEtrxHULwJgQrv7AY_yX",
     codeLink: "https://github.com/Sankar4595/doctorappoinment.git",
   },
 ];
