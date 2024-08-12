@@ -15,6 +15,7 @@ import {
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import QRCodeGenerator from "./pages/qrcode";
 const Home = React.lazy(() => import("./pages/Home"));
 const Project = React.lazy(() => import("./pages/Project"));
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/qrcode" element={<QRCodeGenerator />} />
           {/* <Route path="/blog" element={<Blog />}>
             <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />

@@ -89,6 +89,17 @@ const Project = () => {
             >
               Ecommerce
             </button>
+            <button
+              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
+                activeBtn === "MobileApp" && "active-btn"
+              }`}
+              onClick={() => {
+                setActiveBtn("MobileApp");
+                filterItem("MobileApp");
+              }}
+            >
+              Mobile App
+            </button>
           </div>
 
           {/* Items Card */}

@@ -92,6 +92,53 @@ const Items = [
     liveLink: "https://eezer-admin.vercel.app/login",
     codeLink: "https://github.com/Sankar4595/eezer-admin.git",
   },
+  {
+    id: 3,
+    mainImage: require("../assets/projects/da-1.jpg"),
+    img: [
+      require("../assets/projects/da-1.jpg"),
+      require("../assets/projects/da-2.jpg"),
+      require("../assets/projects/da-3.jpg"),
+      require("../assets/projects/da-4.jpg"),
+      require("../assets/projects/doctorapp.png"),
+    ],
+    features: [
+      "User Authentication with JWT",
+      "Doctor Profile Management",
+      "Appointment Scheduling",
+      "Patient Records Management",
+      "Payment Integration with Razorpay",
+      "Real-time Notifications",
+      "Dashboard with Charts and Visualizations",
+    ],
+    technologies: [
+      "React Native",
+      "React Hooks",
+      "React Navigation",
+      "Axios",
+      "TypeScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Mongoose",
+      "Express Async Handler",
+      "Json Web Token",
+      "Bcryptjs",
+      "Nodemailer",
+      "Dotenv",
+      "Multer",
+      "Slugify",
+      "Cors",
+      "Razorpay",
+    ],
+    title: "Doctor Appointment Mobile App",
+    description:
+      "A comprehensive mobile application developed using the MERN stack for secure user authentication, doctor profile management, appointment scheduling, patient records management, payment integration, and real-time notifications.",
+    category: "MobileApp",
+    liveLink:
+      "sankara-narayanan.vercel.app/static/media/doctorapp.4a7baaa15c9d2ace4793.png",
+    codeLink: "https://github.com/Sankar4595/doctorappoinment.git",
+  },
 ];
 
 export default Items;

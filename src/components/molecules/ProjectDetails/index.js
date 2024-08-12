@@ -59,6 +59,24 @@ const ProjectDetails = () => {
           </div>
         ))}
       </Slider>
+      <div
+        style={{
+          paddingTop: 20,
+          display: "flex",
+          flexDirection: "column",
+          gap: 20,
+          width: "200px",
+        }}
+      >
+        <img
+          width={200}
+          height={200}
+          src={require("../../../assets/projects/doctorapp.png")}
+        />
+        <h5 style={{ color: "orange", fontWeight: 800, textAlign: "center" }}>
+          Download Apk
+        </h5>
+      </div>
       <p className="text-neutral font-medium mt-10 mb-6">
         <span className="font-semibold text-white text-xl">Description: </span>{" "}
         {item?.description}
