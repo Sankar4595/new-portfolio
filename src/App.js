@@ -22,6 +22,7 @@ const Project = React.lazy(() => import("./pages/Project"));
 function App() {
   const location = useLocation();
   const isFalse = location.pathname.includes("404");
+
   return (
     <>
       <ScrollToTop />
